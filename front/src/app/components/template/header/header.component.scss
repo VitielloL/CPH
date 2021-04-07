@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  color: aliceblue;
+
+  .icone {
+    max-height: 78px;
+  }
+  .title {
+    padding-left: 25px;
+    padding-right: 5px;
+  }
+}
