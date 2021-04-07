@@ -1,4 +1,4 @@
-Projeto do site interligado com o banco in game do mta - CPH
+Projeto do site interligado com o banco de dados in game do mta - CPH
 
 Instalar:
 
