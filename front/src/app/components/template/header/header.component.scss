@@ -1,14 +1,18 @@
 .header {
   display: flex;
-  align-items: center;
   background-color: #000;
-  color: aliceblue;
-
-  .icone {
+  .spacer {
+    flex: 1 1 auto;
+  }
+  .botoesDireita {
+    font-size: 1em;
+    font-family: "Bungee";
+  }
+  .icon {
     max-height: 78px;
   }
-  .title {
-    padding-left: 25px;
-    padding-right: 5px;
+  .titulo {
+    font-size: 1.5em;
+    font-family: "Bungee";
   }
 }
