@@ -6,3 +6,6 @@ Angular CLI: 11.2.7
 
 Material do Angular - https://material.angular.io/
 
+FontAwesome - https://www.npmjs.com/package/@fortawesome/angular-fontawesome
+
+
