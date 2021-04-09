@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {
   faInstagram,
+  faInstagramSquare,
   faDiscord,
   faFacebook,
   faTwitch,
@@ -14,6 +15,7 @@ import {
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  faInstagramSquare = faInstagramSquare;
   faInstagram = faInstagram;
   faDiscord = faDiscord;
   faFacebook = faFacebook;

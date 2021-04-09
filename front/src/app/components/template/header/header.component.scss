@@ -1,6 +1,8 @@
 .header {
   display: flex;
-  background-color: #000;
+  background-color: #ffa800;
+  color: white;
+  justify-content: space-around;
   .spacer {
     flex: 1 1 auto;
   }
@@ -14,13 +16,24 @@
     margin-left: 15px;
     margin-right: 25px;
   }
+  a {
+    color: white;
+    text-decoration: none;
+  }
   .icone {
+    color: white;
     margin-left: 15px;
     padding: 5px;
     font-size: 25px;
+    align-items: center;
   }
   .titulo {
-    font-size: 1.5em;
-    font-family: "Bungee";
+    font-size: 1.2em;
+    // font-family: "Bungee";
+    font-family: "Arial";
+    font-weight: 300;
+    margin-left: 5px;
+    align-items: center;
+    text-transform: uppercase;
   }
 }

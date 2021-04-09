@@ -1,15 +1,81 @@
 <mat-toolbar color='primary'>
     <mat-toolbar-row class="header">
-        <span><img class="iconimg" src="../../../../assets/logo.8JhZGHQ.png"></span>
-        <span class="titulo">Conexão Play Hard</span>
-        <span class="spacer"></span>
+<!-- home page button-->
+        <a>
+        <mat-icon class="icone">  home </mat-icon>
+        <span class="titulo">Inicio</span>
+        </a>
 
-  <a> <span class="icone">  <fa-icon [icon]="faFacebook"></fa-icon></span></a>
-  <a>  <span class="icone">   <fa-icon [icon]="faTwitter"></fa-icon></span></a>
-  <a>  <span class="icone">  <fa-icon [icon]="faYoutube"></fa-icon></span></a>
-  <a>  <span class="icone">  <fa-icon [icon]="faInstagram"></fa-icon></span></a>
-  <a>  <span class="icone">  <fa-icon [icon]="faTwitch"></fa-icon></span></a>
-  <a>  <span class="icone">  <fa-icon [icon]="faDiscord"></fa-icon></span></a>
+<!-- entretenimento page button -->
+    <a>
+        <mat-icon class="icone">   local_fire_department</mat-icon>
+        <span class="titulo">Entretenimento</span>
+    </a>
+<!-- promoções page button -->
+        <a>
+        <mat-icon class="icone">  loyalty </mat-icon>
+        <span class="titulo">Promoções</span>
+        </a>
+<div>
+<!-- facebook button -->
+        <a > <span class="icone">  <fa-icon [icon]="faFacebook"></fa-icon></span>
+            <!-- <span class="titulo">Facebook</span> -->
+        </a>
+
+<!-- twitter button -->
+        <a>  <span class="icone">   
+            <fa-icon [icon]="faTwitter"></fa-icon></span>
+            <!-- <span class="titulo">Twitter</span> -->
+        </a>
+<!-- instagram button -->
+        <a href="https://www.instagram.com/conexao_ph/" target="_blank">  
+            <span class="icone">  <fa-icon [icon]="faInstagram"></fa-icon></span>
+            <!-- <span class="titulo">Instagram</span> -->
+        </a>
+
+
+<!-- youtube button -->
+        <a href="https://www.youtube.com/channel/UC-RKHNvRm-nEIFTu6O3eM1Q" target="_blank">  
+            <span class="icone">  <fa-icon [icon]="faYoutube"></fa-icon></span>
+            <!-- <span class="titulo">Youtube</span> -->
+        </a>
+
+<!-- twitch tv button -->
+        <a>  
+           <span class="icone">  <fa-icon [icon]="faTwitch"></fa-icon></span>
+           <!-- <span class="titulo">Twitch Tv</span> -->
+        </a>
+
+<!-- discord button -->
+        <a href="https://discord.com/invite/UBaSGJTB" target="_blank">
+          <span class="icone">  <fa-icon [icon]="faDiscord"></fa-icon></span>
+          <!-- <span class="titulo">Discord</span> -->
+        </a>
+    </div>
+<!-- suporte button -->
+    <a>
+        <mat-icon class="icone"> support_agent</mat-icon>
+        <span class="titulo">Suporte</span>
+    </a>
+
+        <!-- <span class="spacer"></span> -->
+    
+<!-- Cadastrar / logar button -->
+    <div>
+        <mat-icon class="icone">face</mat-icon>
+    <a>
+        <span class="titulo">Cadastrar</span>
+    </a>
+        <span class="titulo">/</span>
+    <a>
+        <span class="titulo">Entrar</span>
+    </a>
+    </div>
+ 
+  
+
+
+
         
         <button mat-icon-button [mat-menu-trigger-for]="menu" ><mat-icon>more_vert </mat-icon></button>
         <mat-menu #menu="matMenu">
