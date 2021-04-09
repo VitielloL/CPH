@@ -1,17 +1,16 @@
 <mat-toolbar color='primary'>
     <mat-toolbar-row class="header">
-        <span><img class="icon" src="../../../../assets/logo.8JhZGHQ.png"></span>
+        <span><img class="iconimg" src="../../../../assets/logo.8JhZGHQ.png"></span>
         <span class="titulo">Conexão Play Hard</span>
         <span class="spacer"></span>
 
-  
-        <button  class="botoesDireita" mat-button> Facebook </button>
-        <button  class="botoesDireita" mat-button> YouTube </button>
-        <button  class="botoesDireita" mat-button> Instagram </button>
-        <button class="botoesDireita" mat-button> Twitter </button>
-        <button  class="botoesDireita" mat-button> Twitch </button>
-        <button  class="botoesDireita" mat-button> Discord </button> 
-    
+  <a> <span class="icone">  <fa-icon [icon]="faFacebook"></fa-icon></span></a>
+  <a>  <span class="icone">   <fa-icon [icon]="faTwitter"></fa-icon></span></a>
+  <a>  <span class="icone">  <fa-icon [icon]="faYoutube"></fa-icon></span></a>
+  <a>  <span class="icone">  <fa-icon [icon]="faInstagram"></fa-icon></span></a>
+  <a>  <span class="icone">  <fa-icon [icon]="faTwitch"></fa-icon></span></a>
+  <a>  <span class="icone">  <fa-icon [icon]="faDiscord"></fa-icon></span></a>
+        
         <button mat-icon-button [mat-menu-trigger-for]="menu" ><mat-icon>more_vert </mat-icon></button>
         <mat-menu #menu="matMenu">
             <button mat-menu-item>
