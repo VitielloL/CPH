@@ -17,9 +17,10 @@ import { MatButtonModule } from '@angular/material/button';
 
 // FontAwesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HomeComponent } from './components/views/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HeaderComponent],
+  declarations: [AppComponent, FooterComponent, HeaderComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
