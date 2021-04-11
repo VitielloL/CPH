@@ -1,5 +1,14 @@
 .home {
+  position: relative;
+  // width: 100vh;
+  height: 93vh;
   background-image: url("../../../../assets/LOGIN.png");
+  background-size: cover;
   background-repeat: none;
-  height: 70%;
+  background-position: center;
+}
+
+.copyright {
+  color: white;
+  font-family: "Arial";
 }
