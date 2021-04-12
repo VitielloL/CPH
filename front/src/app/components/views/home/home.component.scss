@@ -1,15 +1,59 @@
 .home {
-  position: relative;
   // width: 100vh;
   // height: 93vh;
   height: 90vh;
-  background-image: url("../../../../assets/LOGIN.png");
+  background-image: url("../../../../assets/telaDeFundo.png");
   background-size: cover;
   background-repeat: none;
   background-position: center;
-}
 
-.copyright {
-  color: white;
-  font-family: "Arial";
+  .wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+    column-gap: 10;
+  }
+
+  .elemento1 {
+    margin-top: 8%;
+    .imgElemento1 {
+      height: 70%;
+      margin-left: 5%;
+    }
+    .textoElemento1 {
+      font-family: "Arial";
+      font-size: 2em;
+      font-weight: 300;
+      margin-left: 55px;
+      text-transform: uppercase;
+      color: white;
+      .palavraEspecial {
+        color: #ffa800;
+      }
+    }
+    .botaoCadastrar {
+      height: 80px;
+      width: 250px;
+      margin-top: 20px;
+      margin-left: 55px;
+      background-color: #ffa800;
+      color: white;
+      font-family: "Arial";
+      font-size: 2em;
+      font-weight: 300;
+      text-transform: uppercase;
+      .icone {
+        color: white;
+        font-size: 1.2em;
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .elemento2 {
+    margin-top: 7%;
+  }
+
+  .elemento3 {
+    margin-top: 7%;
+  }
 }
