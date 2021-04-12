@@ -18,9 +18,13 @@ import { MatButtonModule } from '@angular/material/button';
 // FontAwesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomeComponent } from './components/views/home/home.component';
+import { EntretenimentoComponent } from './components/views/entretenimento/entretenimento.component';
+import { PromocoesComponent } from './components/views/promocoes/promocoes.component';
+import { EntrarComponent } from './components/views/entrar/entrar.component';
+import { CadastrarComponent } from './components/views/cadastrar/cadastrar.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HeaderComponent, HomeComponent],
+  declarations: [AppComponent, FooterComponent, HeaderComponent, HomeComponent, EntretenimentoComponent, PromocoesComponent, EntrarComponent, CadastrarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
