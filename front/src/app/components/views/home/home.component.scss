@@ -8,22 +8,33 @@
   background-position: center;
 
   .wrap {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
-    column-gap: 10;
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+    // column-gap: 10;
+    display: flex;
+    justify-content: space-between;
   }
 
   .elemento1 {
-    margin-top: 8%;
+    margin-top: 6%;
+    vertical-align: center;
+    display: flex;
+    justify-content: space-between;
     .imgElemento1 {
-      height: 70%;
-      margin-left: 5%;
+      height: 50%;
+      margin-left: 20%;
+    }
+    .imgElemento2 {
+      height: 100%;
+      // margin-right: 300px;
+      // margin-right: 300px;
     }
     .textoElemento1 {
       font-family: "Arial";
       font-size: 2em;
-      font-weight: 300;
-      margin-left: 55px;
+      font-weight: 700;
+      margin-top: 1%;
+      margin-left: 27%;
       text-transform: uppercase;
       color: white;
       .palavraEspecial {
@@ -34,26 +45,40 @@
       height: 80px;
       width: 250px;
       margin-top: 20px;
-      margin-left: 55px;
+      margin-left: 25%;
       background-color: #ffa800;
       color: white;
       font-family: "Arial";
       font-size: 2em;
       font-weight: 300;
       text-transform: uppercase;
+      border-radius: 25px;
+      border-style: 1px solid #ffa800;
       .icone {
         color: white;
         font-size: 1.2em;
         margin-right: 15px;
+        vertical-align: -5px;
       }
     }
   }
 
-  .elemento2 {
-    margin-top: 7%;
-  }
-
   .elemento3 {
-    margin-top: 7%;
+    margin-top: 8%;
+    margin-right: 320px;
+    h1 {
+      color: white;
+      font-weight: 600;
+      font-size: 5.5em;
+      font-family: "Arial";
+      text-transform: uppercase;
+    }
+    h3 {
+      color: #7b7d7c;
+      font-size: 2em;
+      font-weight: 600;
+      font-family: "Arial";
+      text-transform: uppercase;
+    }
   }
 }
