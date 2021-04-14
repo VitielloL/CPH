@@ -8,77 +8,149 @@
   background-position: center;
 
   .wrap {
+    display: flex;
+    // justify-content: space-between;
     // display: grid;
     // grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
     // column-gap: 10;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .elemento1 {
-    margin-top: 6%;
-    vertical-align: center;
-    display: flex;
-    justify-content: space-between;
-    .imgElemento1 {
-      height: 50%;
-      margin-left: 20%;
-    }
-    .imgElemento2 {
-      height: 100%;
-      // margin-right: 300px;
-      // margin-right: 300px;
-    }
-    .textoElemento1 {
-      font-family: "Arial";
-      font-size: 2em;
-      font-weight: 700;
-      margin-top: 1%;
-      margin-left: 27%;
-      text-transform: uppercase;
-      color: white;
-      .palavraEspecial {
-        color: #ffa800;
+    @media (min-width: 1920px) {
+      .tela1 {
+        display: flex;
+        margin-top: 6%;
+        // background-color: black;
+        .img1tela {
+          height: 300px;
+          margin-left: 22%;
+        }
+        .img2tela {
+          height: 600px;
+          margin-left: 8%;
+        }
+        .texto1 {
+          font-family: "Arial";
+          font-size: 2em;
+          font-weight: 700;
+          margin-top: 1%;
+          margin-left: 120px;
+          // margin-left: 27%;
+          text-transform: uppercase;
+          color: white;
+          .palavraEspecial {
+            color: #ffa800;
+          }
+        }
+        .botaoCadastrar {
+          height: 80px;
+          width: 250px;
+          margin-top: 20px;
+          margin-left: 120px;
+          background-color: #ffa800;
+          color: white;
+          font-family: "Arial";
+          font-size: 2em;
+          font-weight: 300;
+          text-transform: uppercase;
+          border-radius: 25px;
+          border-style: 1px solid #ffa800;
+          .icone {
+            color: white;
+            font-size: 1.2em;
+            margin-right: 15px;
+            vertical-align: -5px;
+          }
+        }
       }
     }
-    .botaoCadastrar {
-      height: 80px;
-      width: 250px;
-      margin-top: 20px;
-      margin-left: 25%;
-      background-color: #ffa800;
-      color: white;
-      font-family: "Arial";
-      font-size: 2em;
-      font-weight: 300;
-      text-transform: uppercase;
-      border-radius: 25px;
-      border-style: 1px solid #ffa800;
-      .icone {
+  }
+
+  @media (min-width: 1280px) {
+    .tela1 {
+      display: flex;
+      margin-top: 9%;
+      .img1tela {
+        height: 300px;
+        margin-left: 23%;
+      }
+      .img2tela {
+        margin-top: 15px;
+        height: 550px;
+        margin-left: 10%;
+      }
+      .texto1 {
+        font-family: "Arial";
+        font-size: 2em;
+        font-weight: 700;
+        margin-top: 1%;
+        margin-left: 115px;
+        text-transform: uppercase;
         color: white;
-        font-size: 1.2em;
-        margin-right: 15px;
-        vertical-align: -5px;
+        .palavraEspecial {
+          color: #ffa800;
+        }
+      }
+      .botaoCadastrar {
+        height: 80px;
+        width: 250px;
+        margin-top: 15px;
+        margin-left: 105px;
+        background-color: #ffa800;
+        color: white;
+        font-family: "Arial";
+        font-size: 2em;
+        font-weight: 300;
+        text-transform: uppercase;
+        border-radius: 25px;
+        border-style: 1px solid #ffa800;
+        .icone {
+          color: white;
+          font-size: 1.2em;
+          margin-right: 15px;
+          vertical-align: -5px;
+        }
       }
     }
   }
 
-  .elemento3 {
-    margin-top: 8%;
-    margin-right: 320px;
-    h1 {
-      color: white;
-      font-weight: 600;
-      font-size: 5.5em;
-      font-family: "Arial";
-      text-transform: uppercase;
+  @media (min-width: 980px) {
+    .tela1 {
+      display: flex;
+      margin-top: 5%;
     }
-    h3 {
-      color: #7b7d7c;
-      font-size: 2em;
-      font-weight: 600;
-      font-family: "Arial";
-      text-transform: uppercase;
-    }
+  }
+
+  @media (min-width: 480px) {
   }
 }
+
+// .elemento1 {
+//   margin-top: 6%;
+//   display: flex;
+//   .imgElemento1 {
+//     height: 50%;
+//     margin-left: 20%;
+//   }
+//   .imgElemento2 {
+//     height: 100%;
+//     // margin-right: 300px;
+//     // margin-right: 300px;
+//   }
+//
+
+// .elemento3 {
+//   margin-top: 8%;
+//   margin-right: 320px;
+//   h1 {
+//     color: white;
+//     font-weight: 600;
+//     font-size: 5.5em;
+//     font-family: "Arial";
+//     text-transform: uppercase;
+//   }
+//   h3 {
+//     color: #7b7d7c;
+//     font-size: 2em;
+//     font-weight: 600;
+//     font-family: "Arial";
+//     text-transform: uppercase;
+//   }
+// }
