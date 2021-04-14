@@ -63,7 +63,7 @@
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1440px) {
     .tela1 {
       display: flex;
       margin-top: 9%;
@@ -111,7 +111,8 @@
     }
   }
 
-  @media (min-width: 900px) {
+  // terá que fazer o de 14 = notebook
+  @media (min-width: 980px) {
     .tela1 {
       display: flex;
       margin-top: 5%;
