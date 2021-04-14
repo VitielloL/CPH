@@ -43,7 +43,7 @@
           height: 80px;
           width: 250px;
           margin-top: 20px;
-          margin-left: 120px;
+          margin-left: 110px;
           background-color: #ffa800;
           color: white;
           font-family: "Arial";
@@ -111,7 +111,7 @@
     }
   }
 
-  @media (min-width: 980px) {
+  @media (min-width: 900px) {
     .tela1 {
       display: flex;
       margin-top: 5%;
@@ -121,20 +121,6 @@
   @media (min-width: 480px) {
   }
 }
-
-// .elemento1 {
-//   margin-top: 6%;
-//   display: flex;
-//   .imgElemento1 {
-//     height: 50%;
-//     margin-left: 20%;
-//   }
-//   .imgElemento2 {
-//     height: 100%;
-//     // margin-right: 300px;
-//     // margin-right: 300px;
-//   }
-//
 
 // .elemento3 {
 //   margin-top: 8%;
