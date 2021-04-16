@@ -59,6 +59,103 @@
             vertical-align: -5px;
           }
         }
+        h1 {
+          color: white;
+          margin-top: 50px;
+          margin-left: 150px;
+          font-weight: 600;
+          font-size: 5.5em;
+          font-family: "Arial";
+          text-transform: uppercase;
+        }
+
+        h3 {
+          color: #7b7d7c;
+          margin-left: 150px;
+          font-size: 2em;
+          font-weight: 600;
+          font-family: "Arial";
+          text-transform: uppercase;
+        }
+
+        // parte de comprar
+        .compras {
+          display: flex;
+          .textocompra0 {
+            color: white;
+            margin-left: 185px;
+            margin-top: 5px;
+            font-size: 2.5em;
+            font-weight: 600;
+            font-family: "Arial";
+            text-transform: uppercase;
+          }
+          .textocompra1 {
+            color: white;
+            margin-left: 45px;
+            margin-top: 5px;
+            font-size: 2.5em;
+            font-weight: 600;
+            font-family: "Arial";
+            text-transform: uppercase;
+          }
+          .textocompra2 {
+            color: white;
+            margin-left: 65px;
+            margin-top: 5px;
+            font-size: 2.5em;
+            font-weight: 600;
+            font-family: "Arial";
+            text-transform: uppercase;
+          }
+          .textocompra3 {
+            color: white;
+            margin-left: 55px;
+            margin-top: 5px;
+            font-size: 2.5em;
+            font-weight: 600;
+            font-family: "Arial";
+            text-transform: uppercase;
+          }
+          .botaocompra0 {
+            height: 70px;
+            width: 150px;
+            margin-top: 5px;
+            margin-left: 150px;
+            background-color: #ffa800;
+            color: white;
+            font-family: "Arial";
+            font-size: 2em;
+            font-weight: 300;
+            text-transform: uppercase;
+            border-radius: 25px;
+            border-style: 1px solid #ffa800;
+          }
+          .botaocompra1 {
+            height: 70px;
+            width: 150px;
+            margin-top: 5px;
+            margin-left: 32px;
+            background-color: #ffa800;
+            color: white;
+            font-family: "Arial";
+            font-size: 2em;
+            font-weight: 300;
+            text-transform: uppercase;
+            border-radius: 25px;
+            border-style: 1px solid #ffa800;
+          }
+          .imgcompra0 {
+            margin-top: 60px;
+            margin-left: 150px;
+            height: 150px;
+          }
+          .imgcompra1 {
+            margin-top: 60px;
+            margin-left: 25px;
+            height: 150px;
+          }
+        }
       }
     }
   }
@@ -111,14 +208,14 @@
     }
   }
 
-  // terá que fazer o de 14 = notebook
+  //tablet
   @media (min-width: 980px) {
     .tela1 {
       display: flex;
       margin-top: 5%;
     }
   }
-
+  //celular
   @media (min-width: 480px) {
   }
 }
