@@ -14,6 +14,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 
 // FontAwesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -34,6 +35,7 @@ import { CadastrarComponent } from './components/views/cadastrar/cadastrar.compo
     MatIconModule,
     MatButtonModule,
     FontAwesomeModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
