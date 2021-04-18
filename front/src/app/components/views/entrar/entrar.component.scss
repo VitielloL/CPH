@@ -8,7 +8,7 @@
   .wrap {
     display: flex;
     justify-content: space-around;
-    padding: 12%;
+    padding: 10%;
 
     .loginCard {
       width: 400px;
@@ -21,9 +21,7 @@
 
       .loginInput {
         width: 400px;
-        // margin-top: 10px;
         font-size: 1.2em;
-        // padding-top: 15px;
       }
 
       .loginButton {
