@@ -15,6 +15,9 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 // FontAwesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -25,7 +28,16 @@ import { EntrarComponent } from './components/views/entrar/entrar.component';
 import { CadastrarComponent } from './components/views/cadastrar/cadastrar.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HeaderComponent, HomeComponent, EntretenimentoComponent, PromocoesComponent, EntrarComponent, CadastrarComponent],
+  declarations: [
+    AppComponent,
+    FooterComponent,
+    HeaderComponent,
+    HomeComponent,
+    EntretenimentoComponent,
+    PromocoesComponent,
+    EntrarComponent,
+    CadastrarComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -36,6 +48,9 @@ import { CadastrarComponent } from './components/views/cadastrar/cadastrar.compo
     MatButtonModule,
     FontAwesomeModule,
     MatCardModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

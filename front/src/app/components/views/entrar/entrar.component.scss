@@ -1,0 +1,44 @@
+.login {
+  height: 90vh;
+  background-image: url("../../../../assets/telaDeFundo.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+
+  .wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 12%;
+
+    .loginCard {
+      width: 400px;
+      text-align: center;
+      border-radius: 15px;
+
+      .loginlogo {
+        height: 150px;
+      }
+
+      .loginInput {
+        width: 400px;
+        // margin-top: 10px;
+        font-size: 1.2em;
+        // padding-top: 15px;
+      }
+
+      .loginButton {
+        padding: 12px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        background-color: #ffa800;
+        color: white;
+        font-family: "Arial";
+        font-size: 2em;
+        font-weight: 300;
+        text-transform: uppercase;
+        border-radius: 15px;
+        border-style: 1px solid #ffa800;
+      }
+    }
+  }
+}

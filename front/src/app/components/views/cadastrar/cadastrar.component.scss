@@ -1,23 +1,23 @@
-.cadastrar{
-    height: 90vh;
-    background-image: url("../../../../assets/telaDeFundo.png");
-    background-size: cover;
-    background-repeat: none;
-    background-position: center;
+.cadastrar {
+  height: 90vh;
+  background-image: url("../../../../assets/telaDeFundo.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
 
-    .wrap{
-        display: flex;
-        justify-content: space-around;
-        padding: 12%;
+  .wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 12%;
 
-        .loginTitulo{
-            margin-top: 10px;
-            text-transform: uppercase;
-            color: #ffa800;
-            //text-shadow: solid 10px;
-            font-weight: 800;
-            font-size: 3em;
-            font-family:Arial, Helvetica, sans-serif ;
-        }
+    .cadastroTitulo {
+      margin-top: 10px;
+      text-transform: uppercase;
+      color: #ffa800;
+      //text-shadow: solid 10px;
+      font-weight: 800;
+      font-size: 3em;
+      font-family: Arial, Helvetica, sans-serif;
     }
+  }
 }
