@@ -8,16 +8,40 @@
   .wrap {
     display: flex;
     justify-content: space-around;
-    padding: 12%;
+    padding: 10%;
 
-    .cadastroTitulo {
-      margin-top: 10px;
-      text-transform: uppercase;
-      color: #ffa800;
-      //text-shadow: solid 10px;
-      font-weight: 800;
-      font-size: 3em;
-      font-family: Arial, Helvetica, sans-serif;
+    .registerCard{
+      width: 400px;
+      text-align: center;
+      border-radius: 15px;
+
+      .registerTitle {
+        margin-top: 10px;
+        text-transform: uppercase;
+        color: #ffa800;
+        //text-shadow: solid 10px;
+        font-weight: 800;
+        font-size: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .registerInput{
+        width: 400px;
+        font-size: 1.2em;
+      }
+      
+      .registerButton{
+        padding: 12px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        background-color: #ffa800;
+        color: white;
+        font-family: "Arial";
+        font-size: 2em;
+        font-weight: 300;
+        text-transform: uppercase;
+        border-radius: 15px #ffa800;
+      }
     }
   }
 }
