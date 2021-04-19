@@ -23,10 +23,11 @@ const routes: Routes = [
     path: 'cadastrar',
     component: CadastrarComponent,
   },
+
   {
     path: 'entrar',
     component: EntrarComponent,
-  },  
+  },
 ];
 
 @NgModule({
@@ -34,4 +35,3 @@ const routes: Routes = [
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
-
