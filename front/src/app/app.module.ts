@@ -26,6 +26,7 @@ import { EntretenimentoComponent } from './components/views/entretenimento/entre
 import { PromocoesComponent } from './components/views/promocoes/promocoes.component';
 import { EntrarComponent } from './components/views/entrar/entrar.component';
 import { CadastrarComponent } from './components/views/cadastrar/cadastrar.component';
+import { EsquecerComponent } from './components/views/esquecer/esquecer.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { CadastrarComponent } from './components/views/cadastrar/cadastrar.compo
     PromocoesComponent,
     EntrarComponent,
     CadastrarComponent,
+    EsquecerComponent,
   ],
   imports: [
     BrowserModule,

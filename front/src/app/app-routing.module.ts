@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CadastrarComponent } from './components/views/cadastrar/cadastrar.component';
 import { EntrarComponent } from './components/views/entrar/entrar.component';
 import { EntretenimentoComponent } from './components/views/entretenimento/entretenimento.component';
+import { EsquecerComponent } from './components/views/esquecer/esquecer.component';
 import { HomeComponent } from './components/views/home/home.component';
 import { PromocoesComponent } from './components/views/promocoes/promocoes.component';
 
@@ -27,6 +28,11 @@ const routes: Routes = [
   {
     path: 'entrar',
     component: EntrarComponent,
+  },
+
+  {
+    path: 'esquecer',
+    component: EsquecerComponent,
   },
 ];
 
