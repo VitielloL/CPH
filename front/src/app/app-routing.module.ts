@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BagComponent } from './components/views/bag/bag.component';
 import { CadastrarComponent } from './components/views/cadastrar/cadastrar.component';
 import { EntrarComponent } from './components/views/entrar/entrar.component';
 import { EntretenimentoComponent } from './components/views/entretenimento/entretenimento.component';
 import { EsquecerComponent } from './components/views/esquecer/esquecer.component';
 import { HomeComponent } from './components/views/home/home.component';
+import { PerfilComponent } from './components/views/perfil/perfil.component';
 import { PromocoesComponent } from './components/views/promocoes/promocoes.component';
 
 const routes: Routes = [
@@ -33,6 +35,16 @@ const routes: Routes = [
   {
     path: 'esquecer',
     component: EsquecerComponent,
+  },
+
+  {
+    path: 'perfil',
+    component: PerfilComponent,
+  },
+
+  {
+    path: 'bag',
+    component: BagComponent,
   },
 ];
 
