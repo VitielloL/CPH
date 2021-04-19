@@ -1,14 +1,29 @@
 <div class ="cadastrar">
     <div class='wrap'>  
-        <mat-card>
-            <mat-card-header>
-              <mat-card-title class="cadastroTitulo">Cadastrar</mat-card-title>
-            </mat-card-header>
-            
+        <mat-card class="registerCard">
+            <mat-card-title class="registerTitle">Cadastrar</mat-card-title>
+            <mat-card-content>
+              <form>
+                <mat-form-field class="registrerInput">
+                  <input matInput placeholder="Nickname" required> 
+                </mat-form-field><br>
+
+                <mat-form-field class="registrerInput">
+                  <input matInput placeholder="Email" required> 
+                </mat-form-field><br>
+
+                <mat-form-field class="registrerInput">
+                  <input matInput placeholder="Senha" type="password" required> 
+                </mat-form-field><br>
+
+                <mat-form-field class="registrerInput">
+                  <input matInput placeholder="Repetir senha" type="password" required> 
+                </mat-form-field><br> 
+              </form>
+            </mat-card-content>      
             
             <mat-card-actions>
-              <button mat-button>REGISTRAR</button>
-              <button mat-button>CANCELAR</button>
+              <button  class="registerButton" mat-raised-button>REGISTRAR</button>
             </mat-card-actions>
           </mat-card>
     </div>
