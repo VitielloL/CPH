@@ -32,14 +32,15 @@
 
       .registerButton {
         padding: 12px;
-        margin: 10px 0 10px 0;
+        margin-bottom: 10px;
         background-color: #ffa800;
         color: white;
         font-family: "Arial";
         font-size: 2em;
         font-weight: 300;
         text-transform: uppercase;
-        border-radius: 15px #ffa800;
+        border-radius: 12px;
+        border-style: 1px solid #ffa800;
       }
     }
   }
