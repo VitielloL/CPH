@@ -1,18 +1,14 @@
 .home {
-  // width: 100vh;
-  // height: 93vh;
   height: 90vh;
   background-image: url("../../../../assets/telaDeFundo.png");
   background-size: cover;
   background-repeat: none;
   background-position: center;
-
+  @media (min-width: 1024) {
+    background-size: 1024px 728px;
+  }
   .wrap {
     display: flex;
-    // justify-content: space-between;
-    // display: grid;
-    // grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
-    // column-gap: 10;
     @media (min-width: 1920px) {
       .tela1 {
         display: flex;
@@ -24,7 +20,8 @@
         }
         .img2tela {
           height: 600px;
-          margin-left: 8%;
+          margin-left: 12%;
+          margin-top: -19px;
         }
         .texto1 {
           font-family: "Arial";
@@ -208,105 +205,254 @@
         }
       }
 
-        // 3 Parte
-        h1 {
+      // 3 Parte
+      h1 {
+        color: white;
+        margin-top: 50px;
+        margin-left: 150px;
+        font-weight: 600;
+        font-size: 4.3em;
+        font-family: "Arial";
+        text-transform: uppercase;
+      }
+
+      h3 {
+        color: #7b7d7c;
+        margin-left: 150px;
+        font-size: 2em;
+        font-weight: 600;
+        font-family: "Arial";
+        text-transform: uppercase;
+      }
+
+      //parte de comprar
+
+      .compras {
+        display: flex;
+        .textocompra0 {
           color: white;
-          margin-top: 50px;
-          margin-left: 150px;
-          font-weight: 600;
-          font-size: 4.3em;
-          font-family: "Arial";
-          text-transform: uppercase;
-        }
-
-        h3 {
-          color: #7b7d7c;
-          margin-left: 150px;
-          font-size: 2em;
+          margin-left: 102px;
+          margin-top: 5px;
+          font-size: 2.5em;
           font-weight: 600;
           font-family: "Arial";
           text-transform: uppercase;
         }
-
-        //parte de comprar
-
-        .compras {
-          display: flex;
-          .textocompra0 {
-            color: white;
-            margin-left: 102px;
-            margin-top: 5px;
-            font-size: 2.5em;
-            font-weight: 600;
-            font-family: "Arial";
-            text-transform: uppercase;
-          }
-          .textocompra1 {
-            color: white;
-            margin-left: 24px;
-            margin-top: 5px;
-            font-size: 2.5em;
-            font-weight: 600;
-            font-family: "Arial";
-            text-transform: uppercase;
-          }
-          .textocompra2 {
-            color: white;
-            margin-left: 50px;
-            margin-top: 5px;
-            font-size: 2.5em;
-            font-weight: 600;
-            font-family: "Arial";
-            text-transform: uppercase;
-          }
-          .textocompra3 {
-            color: white;
-            margin-left: 32px;
-            margin-top: 5px;
-            font-size: 2.5em;
-            font-weight: 600;
-            font-family: "Arial";
-            text-transform: uppercase;
-          }
-          .botaocompra0 {
-            height: 50px;
-            width: 130px;
-            margin-top: 5px;
-            margin-left: 77px;
-            background-color: #ffa800;
-            color: white;
-            font-family: "Arial";
-            font-size: 1.5em;
-            font-weight: 300;
-            text-transform: uppercase;
-            border-radius: 15px;
-            border-style: 1px solid #ffa800;
-          }
-          .botaocompra1 {
-            height: 50px;
-            width: 130px;
-            margin-top: 5px;
-            margin-left: 20px;
-            background-color: #ffa800;
-            color: white;
-            font-family: "Arial";
-            font-size: 1.5em;
-            font-weight: 300;
-            text-transform: uppercase;
-            border-radius: 15px;
-            border-style: 1px solid #ffa800;
-          }
-          .imgcompra0 {
-            margin-top: 60px;
-            margin-left: 80px;
-            height: 120px;
-          }
-          .imgcompra1 {
-            margin-top: 60px;
-            margin-left: 20px;
-            height: 120px;
-          }
+        .textocompra1 {
+          color: white;
+          margin-left: 24px;
+          margin-top: 5px;
+          font-size: 2.5em;
+          font-weight: 600;
+          font-family: "Arial";
+          text-transform: uppercase;
         }
+        .textocompra2 {
+          color: white;
+          margin-left: 50px;
+          margin-top: 5px;
+          font-size: 2.5em;
+          font-weight: 600;
+          font-family: "Arial";
+          text-transform: uppercase;
+        }
+        .textocompra3 {
+          color: white;
+          margin-left: 32px;
+          margin-top: 5px;
+          font-size: 2.5em;
+          font-weight: 600;
+          font-family: "Arial";
+          text-transform: uppercase;
+        }
+        .botaocompra0 {
+          height: 50px;
+          width: 130px;
+          margin-top: 5px;
+          margin-left: 77px;
+          background-color: #ffa800;
+          color: white;
+          font-family: "Arial";
+          font-size: 1.5em;
+          font-weight: 300;
+          text-transform: uppercase;
+          border-radius: 15px;
+          border-style: 1px solid #ffa800;
+        }
+        .botaocompra1 {
+          height: 50px;
+          width: 130px;
+          margin-top: 5px;
+          margin-left: 20px;
+          background-color: #ffa800;
+          color: white;
+          font-family: "Arial";
+          font-size: 1.5em;
+          font-weight: 300;
+          text-transform: uppercase;
+          border-radius: 15px;
+          border-style: 1px solid #ffa800;
+        }
+        .imgcompra0 {
+          margin-top: 60px;
+          margin-left: 80px;
+          height: 120px;
+        }
+        .imgcompra1 {
+          margin-top: 60px;
+          margin-left: 20px;
+          height: 120px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .tela1 {
+      display: flex;
+      margin-top: 5%;
+      .img1tela {
+        height: 200px;
+        margin-left: 10%;
+      }
+      .img2tela {
+        margin-top: 85px;
+        height: 350px;
+        margin-left: 12%;
+      }
+      .texto1 {
+        font-family: "Arial";
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-top: 1%;
+        margin-left: 25px;
+        text-transform: uppercase;
+        color: white;
+        .palavraEspecial {
+          color: #ffa800;
+        }
+      }
+      .botaoCadastrar {
+        height: 60px;
+        width: 180px;
+        margin-top: 2px;
+        margin-left: 20px;
+        background-color: #ffa800;
+        color: white;
+        font-family: "Arial";
+        font-size: 1.5em;
+        font-weight: 300;
+        text-transform: uppercase;
+        border-radius: 25px;
+        border-style: 1px solid #ffa800;
+        padding-left: 2px;
+        .icone {
+          color: white;
+          font-size: 1em;
+          // margin-right: 1px;
+          // vertical-align: -8px;
+        }
+      }
+
+      // 3 Parte
+      h1 {
+        color: white;
+        margin-top: 30px;
+        margin-left: 80px;
+        font-weight: 600;
+        font-size: 3em;
+        font-family: "Arial";
+        text-transform: uppercase;
+      }
+
+      h3 {
+        color: #7b7d7c;
+        margin-left: 80px;
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: "Arial";
+        text-transform: uppercase;
+      }
+
+      //parte de comprar
+
+      .compras {
+        display: flex;
+        .textocompra0 {
+          color: white;
+          margin-left: 95px;
+          margin-top: 5px;
+          font-size: 1.5em;
+          font-weight: 600;
+          font-family: "Arial";
+          text-transform: uppercase;
+        }
+        .textocompra1 {
+          color: white;
+          margin-left: 28px;
+          margin-top: 5px;
+          font-size: 1.5em;
+          font-weight: 600;
+          font-family: "Arial";
+          text-transform: uppercase;
+        }
+        .textocompra2 {
+          color: white;
+          margin-left: 38px;
+          margin-top: 5px;
+          font-size: 1.5em;
+          font-weight: 600;
+          font-family: "Arial";
+          text-transform: uppercase;
+        }
+        .textocompra3 {
+          color: white;
+          margin-left: 30px;
+          margin-top: 5px;
+          font-size: 1.5em;
+          font-weight: 600;
+          font-family: "Arial";
+          text-transform: uppercase;
+        }
+        .botaocompra0 {
+          height: 40px;
+          width: 80px;
+          // margin-top: 5px;
+          margin-left: 80px;
+          background-color: #ffa800;
+          color: white;
+          font-family: "Arial";
+          font-size: 1em;
+          font-weight: 700;
+          // text-transform: uppercase;
+          border-radius: 15px;
+          border-style: 1px solid #ffa800;
+        }
+        .botaocompra1 {
+          height: 40px;
+          width: 80px;
+          // margin-top: 5px;
+          margin-left: 20px;
+          background-color: #ffa800;
+          color: white;
+          font-family: "Arial";
+          font-size: 1em;
+          font-weight: 700;
+          // text-transform: uppercase;
+          border-radius: 15px;
+          border-style: 1px solid #ffa800;
+        }
+        .imgcompra0 {
+          margin-top: 20px;
+          margin-left: 80px;
+          height: 80px;
+        }
+        .imgcompra1 {
+          margin-top: 20px;
+          margin-left: 20px;
+          height: 80px;
+        }
+      }
     }
   }
 
