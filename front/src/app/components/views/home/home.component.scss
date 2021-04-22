@@ -13,61 +13,64 @@
     display: grid;
     grid-template-columns: 25% 25% 50%;
     // gap: 5%;
-    padding-top: 6%;
+    padding-top: 3%;
+
     @media (max-width: 1920px) {
       // parte 1
       .img1tela {
-        height: 35%;
+        height: 75%;
+        margin-left: 5%;
       }
 
       .texto1 {
         font-family: "Arial";
-        font-size: 1.5em;
+        font-size: 250%;
         font-weight: 700;
-        margin-top: 1%;
-        margin-left: 5%;
+        margin-left: 20%;
         text-transform: uppercase;
         color: white;
+
         .palavraEspecial {
           color: #ffa800;
         }
       }
       .botaoCadastrar {
-        height: 10%;
+        height: 15%;
         width: auto;
-        margin-top: 2%;
-        margin-left: 6%;
+        margin-left: 23.5%;
         background-color: #ffa800;
         color: white;
         font-family: "Arial";
-        font-size: 1.5em;
+        font-size: 250%;
         font-weight: 300;
         text-transform: uppercase;
-        border-radius: 25px;
+        border-radius: 27px;
         border-style: 1px solid #ffa800;
       }
 
       //Parte 2
       .img2tela {
-        margin-top: 20%;
-        height: 70%;
+        margin-top: 8%;
+        height: 100%;
+        text-align: center;
       }
 
       // Parte 3
       h1 {
         color: white;
-        margin-top: 50px;
-        margin-left: 150px;
+        padding-bottom: 1%;
+        margin-top: 10%;
+        margin-left: 10%;
         font-weight: 600;
-        font-size: 5.5em;
+        font-size: 650%;
         font-family: "Arial";
         text-transform: uppercase;
       }
 
       h3 {
         color: #7b7d7c;
-        margin-left: 150px;
-        font-size: 2em;
+        margin-left: 10%;
+        font-size: 230%;
         font-weight: 600;
         font-family: "Arial";
         text-transform: uppercase;
@@ -78,26 +81,26 @@
         display: flex;
         .textocompra0 {
           color: white;
-          margin-left: 185px;
-          margin-top: 5px;
-          font-size: 2.5em;
+          margin-left: 83%;
+          margin-top: 2%;
+          font-size: 250%;
           font-weight: 600;
           font-family: "Arial";
           text-transform: uppercase;
         }
         .textocompra1 {
           color: white;
-          margin-left: 45px;
-          margin-top: 5px;
-          font-size: 2.5em;
+          margin-left: 82%;
+          margin-top: 1%;
+          font-size: 250%;
           font-weight: 600;
           font-family: "Arial";
           text-transform: uppercase;
         }
         .textocompra2 {
           color: white;
-          margin-left: 65px;
-          margin-top: 5px;
+          margin-left: 93%;
+          margin-top: 1%;
           font-size: 2.5em;
           font-weight: 600;
           font-family: "Arial";
@@ -105,8 +108,8 @@
         }
         .textocompra3 {
           color: white;
-          margin-left: 55px;
-          margin-top: 5px;
+          margin-left: 86%;
+          margin-top: 1%;
           font-size: 2.5em;
           font-weight: 600;
           font-family: "Arial";
@@ -114,23 +117,25 @@
         }
         .botaocompra0 {
           height: 70px;
-          width: 150px;
-          margin-top: 5px;
-          margin-left: 150px;
+          width: 155px;
+          margin-top: -1%;
+          margin-left: 60%;
           background-color: #ffa800;
           color: white;
           font-family: "Arial";
           font-size: 2em;
           font-weight: 300;
           text-transform: uppercase;
-          border-radius: 25px;
+          border-radius: 27px;
           border-style: 1px solid #ffa800;
         }
+
         .botaocompra1 {
           height: 70px;
           width: 150px;
-          margin-top: 5px;
-          margin-left: 32px;
+          margin-top: 0%;
+          margin-left: 71%;
+          margin-right: 10px;
           background-color: #ffa800;
           color: white;
           font-family: "Arial";
@@ -141,14 +146,15 @@
           border-style: 1px solid #ffa800;
         }
         .imgcompra0 {
-          margin-top: 60px;
-          margin-left: 150px;
-          height: 150px;
+          margin-top: 47%;
+          margin-left: 62%;
+          height: 45%;
         }
         .imgcompra1 {
-          margin-top: 60px;
-          margin-left: 25px;
-          height: 150px;
+          padding-right: 33%;
+          margin-top: 40%;
+          margin-left: 70%;
+          height: 45%;
         }
       }
     }
