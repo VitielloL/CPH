@@ -26,6 +26,9 @@ import { EntretenimentoComponent } from './components/views/entretenimento/entre
 import { PromocoesComponent } from './components/views/promocoes/promocoes.component';
 import { EntrarComponent } from './components/views/entrar/entrar.component';
 import { CadastrarComponent } from './components/views/cadastrar/cadastrar.component';
+import { EsquecerComponent } from './components/views/esquecer/esquecer.component';
+import { BagComponent } from './components/views/bag/bag.component';
+import { PerfilComponent } from './components/views/perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +40,9 @@ import { CadastrarComponent } from './components/views/cadastrar/cadastrar.compo
     PromocoesComponent,
     EntrarComponent,
     CadastrarComponent,
+    EsquecerComponent,
+    BagComponent,
+    PerfilComponent,
   ],
   imports: [
     BrowserModule,

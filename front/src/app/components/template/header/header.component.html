@@ -38,19 +38,14 @@
 
     <button mat-icon-button [mat-menu-trigger-for]="menu" ><mat-icon class="icone">more_vert </mat-icon></button>
     <mat-menu #menu="matMenu">
-        <button mat-menu-item>
-            <mat-icon>dialpad</mat-icon>
-            <span>teste 1</span>
+        <button mat-menu-item routerLink="/perfil">
+            <mat-icon>perm_identity</mat-icon>
+            <span>Perfil</span>
         </button>
 
-        <button mat-menu-item>
-            <mat-icon>voicemail</mat-icon>
-            <span>teste 2</span>
-        </button>
-
-        <button mat-menu-item>
-            <mat-icon>notifications_off</mat-icon>
-            <span>teste 3</span>
+        <button mat-menu-item routerLink="/bag">
+            <mat-icon>shopping_bag</mat-icon>
+            <span>Minha bolsa</span>
         </button>
     </mat-menu>
 
