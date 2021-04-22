@@ -76,50 +76,31 @@
         text-transform: uppercase;
       }
 
-      // parte de comprar
       .compras {
         display: flex;
+        align-items: center;
+
+        .imgcompra0 {
+          margin-top: 30px;
+          margin-left: 60%;
+          height: 40%;
+        }
+
         .textocompra0 {
           color: white;
-          margin-left: 83%;
+          margin-left: 77%;
           margin-top: 2%;
           font-size: 250%;
           font-weight: 600;
           font-family: "Arial";
           text-transform: uppercase;
         }
-        .textocompra1 {
-          color: white;
-          margin-left: 82%;
-          margin-top: 1%;
-          font-size: 250%;
-          font-weight: 600;
-          font-family: "Arial";
-          text-transform: uppercase;
-        }
-        .textocompra2 {
-          color: white;
-          margin-left: 93%;
-          margin-top: 1%;
-          font-size: 2.5em;
-          font-weight: 600;
-          font-family: "Arial";
-          text-transform: uppercase;
-        }
-        .textocompra3 {
-          color: white;
-          margin-left: 86%;
-          margin-top: 1%;
-          font-size: 2.5em;
-          font-weight: 600;
-          font-family: "Arial";
-          text-transform: uppercase;
-        }
+
         .botaocompra0 {
           height: 70px;
           width: 155px;
           margin-top: -1%;
-          margin-left: 60%;
+          margin-left: 55%;
           background-color: #ffa800;
           color: white;
           font-family: "Arial";
@@ -129,33 +110,55 @@
           border-radius: 27px;
           border-style: 1px solid #ffa800;
         }
-
-        .botaocompra1 {
-          height: 70px;
-          width: 150px;
-          margin-top: 0%;
-          margin-left: 71%;
-          margin-right: 10px;
-          background-color: #ffa800;
-          color: white;
-          font-family: "Arial";
-          font-size: 2em;
-          font-weight: 300;
-          text-transform: uppercase;
-          border-radius: 25px;
-          border-style: 1px solid #ffa800;
-        }
-        .imgcompra0 {
-          margin-top: 47%;
-          margin-left: 62%;
-          height: 45%;
-        }
         .imgcompra1 {
-          padding-right: 33%;
-          margin-top: 40%;
+          margin-top: 30px;
           margin-left: 70%;
-          height: 45%;
+          height: 40%;
         }
+      }
+      .textocompra1 {
+        color: white;
+        margin-left: 77%;
+        margin-top: 1%;
+        font-size: 250%;
+        font-weight: 600;
+        font-family: "Arial";
+        text-transform: uppercase;
+      }
+
+      .botaocompra1 {
+        height: 70px;
+        width: 150px;
+        margin-top: 0%;
+        margin-left: 65%;
+        margin-right: 15px;
+        background-color: #ffa800;
+        color: white;
+        font-family: "Arial";
+        font-size: 2em;
+        font-weight: 300;
+        text-transform: uppercase;
+        border-radius: 25px;
+        border-style: 1px solid #ffa800;
+      }
+
+      .textocompra2 {
+        color: white;
+        margin-left: 90%;
+        margin-top: 1%;
+        font-size: 2.5em;
+        font-weight: 600;
+        font-family: "Arial";
+        text-transform: uppercase;
+      }
+      .textocompra3 {
+        color: white;
+        margin-left: 80%;
+        margin-top: 1%;
+        font-size: 2.5em;
+        font-weight: 600;
+        font-family: "Arial";
+        text-transform: uppercase;
       }
     }
   }
