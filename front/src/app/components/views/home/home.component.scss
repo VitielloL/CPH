@@ -13,20 +13,20 @@
     display: grid;
     grid-template-columns: 25% 25% 50%;
     // gap: 5%;
-    padding-top: 3%;
+    padding-top: 5%;
 
     @media (max-width: 1920px) {
       // parte 1
       .img1tela {
-        height: 75%;
-        margin-left: 5%;
+        height: 55%;
+        margin-left: 10%;
       }
 
       .texto1 {
         font-family: "Arial";
         font-size: 250%;
         font-weight: 700;
-        margin-left: 20%;
+        margin-left: 14%;
         text-transform: uppercase;
         color: white;
 
@@ -37,7 +37,7 @@
       .botaoCadastrar {
         height: 15%;
         width: auto;
-        margin-left: 23.5%;
+        margin-left: 17%;
         background-color: #ffa800;
         color: white;
         font-family: "Arial";
@@ -51,7 +51,7 @@
       //Parte 2
       .img2tela {
         margin-top: 8%;
-        height: 100%;
+        height: 90%;
         text-align: center;
       }
 
@@ -82,13 +82,13 @@
 
         .imgcompra0 {
           margin-top: 30px;
-          margin-left: 60%;
+          margin-left: 38%;
           height: 40%;
         }
 
         .textocompra0 {
           color: white;
-          margin-left: 77%;
+          margin-left: 53%;
           margin-top: 2%;
           font-size: 250%;
           font-weight: 600;
@@ -100,7 +100,7 @@
           height: 70px;
           width: 155px;
           margin-top: -1%;
-          margin-left: 55%;
+          margin-left: 28%;
           background-color: #ffa800;
           color: white;
           font-family: "Arial";
@@ -112,13 +112,13 @@
         }
         .imgcompra1 {
           margin-top: 30px;
-          margin-left: 70%;
+          margin-left: 40%;
           height: 40%;
         }
       }
       .textocompra1 {
         color: white;
-        margin-left: 77%;
+        margin-left: 46%;
         margin-top: 1%;
         font-size: 250%;
         font-weight: 600;
@@ -130,7 +130,7 @@
         height: 70px;
         width: 150px;
         margin-top: 0%;
-        margin-left: 65%;
+        margin-left: 35%;
         margin-right: 15px;
         background-color: #ffa800;
         color: white;
@@ -144,7 +144,7 @@
 
       .textocompra2 {
         color: white;
-        margin-left: 90%;
+        margin-left: 58%;
         margin-top: 1%;
         font-size: 2.5em;
         font-weight: 600;
@@ -153,7 +153,7 @@
       }
       .textocompra3 {
         color: white;
-        margin-left: 80%;
+        margin-left: 48%;
         margin-top: 1%;
         font-size: 2.5em;
         font-weight: 600;
