@@ -4,11 +4,14 @@
   background-size: cover;
   background-repeat: none;
   background-position: center;
-
+  @media (min-width: 1024) {
+    height: 80vh;
+    background-size: 1024px 728px;
+  }
   .wrap {
     display: flex;
     justify-content: space-around;
-    padding: 10%;
+    padding: 5%;
 
     .registerCard {
       width: 400px;
