@@ -29,6 +29,7 @@ import { CadastrarComponent } from './components/views/cadastrar/cadastrar.compo
 import { EsquecerComponent } from './components/views/esquecer/esquecer.component';
 import { BagComponent } from './components/views/bag/bag.component';
 import { PerfilComponent } from './components/views/perfil/perfil.component';
+import { InicioComponent } from './components/views/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { PerfilComponent } from './components/views/perfil/perfil.component';
     EsquecerComponent,
     BagComponent,
     PerfilComponent,
+    InicioComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,119 @@
+.home {
+  height: 91%;
+  background: url("../../../../assets/telaDeFundo.png") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .wrap {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+
+    .A {
+      width: 100%;
+      padding-top: 20%;
+      text-align: center;
+      img {
+        height: 60%;
+      }
+
+      p {
+        font-family: "Arial";
+        font-size: 2em;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: white;
+        .palavraEspecial {
+          color: #ffa800;
+        }
+      }
+
+      button {
+        margin-top: 10px;
+        height: 12%;
+        background-color: #ffa800;
+        color: white;
+        font-size: 2em;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-radius: 15px;
+        border-style: 1px solid #ffa800;
+      }
+    }
+
+    .B {
+      width: 100%;
+      padding-top: 30%;
+      text-align: end;
+      img {
+        height: 100%;
+        border-radius: 5px;
+      }
+    }
+
+    .C {
+      width: 100%;
+      padding-top: 5%;
+      margin-left: 10%;
+      // text-align: center;
+      h1 {
+        color: white;
+        padding-bottom: 1%;
+        margin-left: 5%;
+        margin-top: 10%;
+        font-weight: 600;
+        font-size: 5em;
+        font-family: "Arial";
+        text-transform: uppercase;
+      }
+
+      h2 {
+        margin-left: 5%;
+        color: #7b7d7c;
+        font-size: 2.5em;
+        font-weight: 600;
+        font-family: "Arial";
+        text-transform: uppercase;
+      }
+
+      img {
+        height: 20%;
+        margin-top: 5%;
+        margin-left: 5%;
+      }
+
+      .wrapC {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 15%;
+        margin-left: 5%;
+        margin-top: 5%;
+        img {
+          height: 55%;
+        }
+
+        h2 {
+          color: white;
+          font-size: 2.5em;
+          font-weight: 600;
+          font-family: "Arial";
+          text-transform: uppercase;
+        }
+
+        button {
+          margin-top: 8px;
+          height: 25%;
+          background-color: #ffa800;
+          color: white;
+          font-size: 1.5em;
+          font-weight: 400;
+          text-transform: uppercase;
+          border-radius: 15px;
+          border-style: 1px solid #ffa800;
+        }
+      }
+    }
+  }
+}
