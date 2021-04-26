@@ -5,7 +5,6 @@ import { CadastrarComponent } from './components/views/cadastrar/cadastrar.compo
 import { EntrarComponent } from './components/views/entrar/entrar.component';
 import { EntretenimentoComponent } from './components/views/entretenimento/entretenimento.component';
 import { EsquecerComponent } from './components/views/esquecer/esquecer.component';
-import { HomeComponent } from './components/views/home/home.component';
 import { InicioComponent } from './components/views/inicio/inicio.component';
 import { PerfilComponent } from './components/views/perfil/perfil.component';
 import { PromocoesComponent } from './components/views/promocoes/promocoes.component';

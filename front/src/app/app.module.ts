@@ -9,6 +9,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { HeaderComponent } from './components/template/header/header.component';
 
+// Views
+import { EntretenimentoComponent } from './components/views/entretenimento/entretenimento.component';
+import { PromocoesComponent } from './components/views/promocoes/promocoes.component';
+import { EntrarComponent } from './components/views/entrar/entrar.component';
+import { CadastrarComponent } from './components/views/cadastrar/cadastrar.component';
+import { EsquecerComponent } from './components/views/esquecer/esquecer.component';
+import { BagComponent } from './components/views/bag/bag.component';
+import { PerfilComponent } from './components/views/perfil/perfil.component';
+import { InicioComponent } from './components/views/inicio/inicio.component';
+
 // Material do angular
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
@@ -21,22 +31,12 @@ import { MatInputModule } from '@angular/material/input';
 
 // FontAwesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HomeComponent } from './components/views/home/home.component';
-import { EntretenimentoComponent } from './components/views/entretenimento/entretenimento.component';
-import { PromocoesComponent } from './components/views/promocoes/promocoes.component';
-import { EntrarComponent } from './components/views/entrar/entrar.component';
-import { CadastrarComponent } from './components/views/cadastrar/cadastrar.component';
-import { EsquecerComponent } from './components/views/esquecer/esquecer.component';
-import { BagComponent } from './components/views/bag/bag.component';
-import { PerfilComponent } from './components/views/perfil/perfil.component';
-import { InicioComponent } from './components/views/inicio/inicio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    HomeComponent,
     EntretenimentoComponent,
     PromocoesComponent,
     EntrarComponent,
