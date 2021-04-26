@@ -76,40 +76,42 @@
         text-transform: uppercase;
       }
 
-      img {
-        height: 20%;
-        margin-top: 5%;
-        margin-left: 5%;
-      }
-
       .wrapC {
         display: flex;
         justify-content: space-around;
         margin-right: 15%;
-        margin-left: 1%;
+        // margin-left: 1%;
         margin-top: 5%;
-        img {
-          height: 55%;
-        }
-
-        h2 {
-          color: white;
-          font-size: 2.5em;
-          font-weight: 600;
-          font-family: "Arial";
-          text-transform: uppercase;
-        }
-
-        button {
-          margin-top: 8px;
-          height: 25%;
-          background-color: #ffa800;
-          color: white;
-          font-size: 1.5em;
-          font-weight: 400;
-          text-transform: uppercase;
-          border-radius: 15px;
-          border-style: 1px solid #ffa800;
+        padding-left: 2rem;
+        .wrapC2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          img {
+            height: 55%;
+          }
+          h2 {
+            color: white;
+            font-size: 2.5em;
+            font-weight: 600;
+            font-family: "Arial";
+            text-transform: uppercase;
+            margin-top: 15px;
+            text-align: center;
+          }
+          button {
+            height: 30%;
+            margin-left: 12px;
+            background-color: #ffa800;
+            color: white;
+            font-size: 1.5em;
+            font-weight: 400;
+            text-transform: uppercase;
+            border-radius: 10px;
+            border-style: 1px solid #ffa800;
+            padding: 8px 12px 8px 12px;
+          }
         }
       }
     }
@@ -124,6 +126,23 @@
       }
       .B {
         display: none;
+      }
+
+      .C {
+        .wrapC {
+          padding-left: 5rem;
+          img {
+            height: 50%;
+          }
+          h2 {
+            color: white;
+            font-size: 2.5em;
+            font-weight: 600;
+            font-family: "Arial";
+            text-transform: uppercase;
+            margin-top: 5px;
+          }
+        }
       }
     }
   }
